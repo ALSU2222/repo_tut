@@ -9,7 +9,7 @@ git checkout -B master
 git add -A
 git commit -m "latest deploy"
 
-git push -f https://github.com/ALSU2222/alsu_minutdinova.git master:dist
+git push -f git@github.com:ALSU2222/alsu_minutdinova.git master:dist
 
 @REM возвращаеемся в рабочую папку
 cd ..
